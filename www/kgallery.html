@@ -1,414 +1,579 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="iso-8859-1">
-<title>Hindu Community Center</title>
-<meta name="description" content="Ambaji Temple Garfield">
-<meta name="keywords" content="Ambaji Mandir, Ambaji Temple Garfield, Hindu Temple Garfield, Hindu Mandir Garfield, Hindu Temple Kearny, Vaikunth Dham, Hindu Community Center">
-<meta name="author" content="Manish Patel">
-<style>
-div#container
-{
-   width: 994px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
-body
-{
-   background-color: #FAEBD7;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
-   text-align: center;
-}
-a
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-a:visited
-{
-   color: #800080;
-}
-a:active
-{
-   color: #FF0000;
-}
-a:hover
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-input:focus, textarea:focus, select:focus
-{
-   outline: none;
-}
-a.style1
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-a.style1:visited
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-a.style1:active
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-a.style1:hover
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-#PageHeader
-{
-   background-color: #800000;
-   background-image: none;
-   box-sizing: border-box;
-}
-#wb_indexCssMenu1
-{
-   border: 0px #CD5C5C solid;
-   background-color: #800000;
-   margin: 0;
-   text-align: left;
-}
-#wb_indexCssMenu1 ul
-{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-}
-#wb_indexCssMenu1 li
-{
-   float: left;
-   margin: 0;
-   padding: 0px 0px 0px 0px;
-   width: 11.11%;
-}
-#wb_indexCssMenu1 a
-{
-   display: block;
-   float: left;
-   color: #000000;
-   border: 1px solid #CD5C5C;
-   background-color: #FECCB1;
-   background: linear-gradient(to bottom, #FEF8F4 0%, #FEE4D5 10%, #FECDB2 50%, #F8A97E 50%, #FEE0CF 100%);
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
-   font-style: normal;
-   text-decoration: none;
-   width: 84.97%;
-   height: 26px;
-   padding: 0px 5px 0px 5px;
-   vertical-align: middle;
-   line-height: 26px;
-   text-align: center;
-}
-#wb_indexCssMenu1 li:hover a, #wb_indexCssMenu1 a:hover, #wb_indexCssMenu1 .active
-{
-   color: #FFFFFF;
-   background-color: #FF3333;
-   background: linear-gradient(to bottom, #FFE4E4 0%, #FF9393 10%, #FF3737 50%, #D71F1F 50%, #FF8383 100%);
-   border: 1px #800000 #8A0EE2019A7EC75719F40;
-}
-#wb_indexCssMenu1 li.firstmain
-{
-   padding-left: 0px;
-}
-#wb_indexCssMenu1 li.lastmain
-{
-   padding-right: 0px;
-}
-#wb_indexCssMenu1 li:hover, #wb_indexCssMenu1 li a:hover
-{
-   position: relative;
-}
-#wb_indexCssMenu1 a.withsubmenu
-{
-   padding: 0 5px 0 5px;
-   width: 84.97%;
-}
-#wb_indexCssMenu1 li:hover a.withsubmenu, #wb_indexCssMenu1 a.withsubmenu:hover
-{
-}
-#wb_indexCssMenu1 ul ul
-{
-   position: absolute;
-   left: 0;
-   top: 0;
-   visibility: hidden;
-   width: 100px;
-   height: auto;
-   border: none;
-   background-color: #800000;
-}
-#wb_indexCssMenu1 ul :hover ul
-{
-   left: 0px;
-   top: 28px;
-   padding-top: 0px;
-   visibility: visible;
-}
-#wb_indexCssMenu1 .firstmain:hover ul
-{
-   left: 0px;
-}
-#wb_indexCssMenu1 li li
-{
-   width: 100px;
-   padding: 0 0px 0px 0px;
-   border: 0px #CD5C5C solid;
-   border-width: 0 0px;
-}
-#wb_indexCssMenu1 li li.firstitem
-{
-   border-top: 0px #CD5C5C solid;
-}
-#wb_indexCssMenu1 li li.lastitem
-{
-   border-bottom: 0px #CD5C5C solid;
-}
-#wb_indexCssMenu1 ul ul a, #wb_indexCssMenu1 ul :hover ul a
-{
-   float: none;
-   margin: 0;
-   width: 86px;
-   height: auto;
-   white-space: normal;
-   padding: 7px 6px 6px 6px;
-   background-color: #FECCB1;
-   background: linear-gradient(to bottom, #FEF8F4 0%, #FEE4D5 10%, #FECDB2 50%, #F8A97E 50%, #FEE0CF 100%);
-   border: 1px solid #CD5C5C;
-   color: #333333;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
-   font-style: normal;
-   line-height: 13px;
-   text-align: left;
-   text-decoration: none;
-}
-#wb_indexCssMenu1 ul :hover ul .firstitem a
-{
-   margin-top: 0px;
-}
-#wb_indexCssMenu1 ul ul :hover a, #wb_indexCssMenu1 ul ul a:hover, #wb_indexCssMenu1 ul ul :hover ul :hover a, #wb_indexCssMenu1 ul ul :hover ul a:hover
-{
-   background-color: #FF3333;
-   background: linear-gradient(to bottom, #FFE4E4 0%, #FF9393 10%, #FF3737 50%, #D71F1F 50%, #FF8383 100%);
-   border: 1px solid #800000;
-   color: #FFFFFF;
-}
-#wb_indexCssMenu1 br
-{
-   clear: both;
-   font-size: 1px;
-   height: 0;
-   line-height: 0;
-}
-#wb_Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text1
-{
-   font-family: Verdana;
-   font-weight: normal;
-   font-size: 13px;
-}
-#wb_Text1 div
-{
-   text-align: center;
-}
-#wb_indexText1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_indexText1
-{
-   font-family: Verdana;
-   font-weight: normal;
-   font-size: 35px;
-}
-#wb_indexText1 div
-{
-   text-align: center;
-}
-#kearnyPhotoGallery1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   width: 100%;
-   height: 100%;
-   table-layout: fixed;
-   display: table;
-   margin: 0;
-}
-#kearnyPhotoGallery1 .thumbnails
-{
-   margin: 0;
-}
-#kearnyPhotoGallery1 .thumbnail
-{
-   position: relative;
-   min-height: 1px;
-   box-sizing: border-box;
-   float: left;
-   padding: 3px 3px 3px 3px;
-   width: 20%;
-   text-align: center;
-   vertical-align: top;
-}
-#kearnyPhotoGallery1 .thumbnail img
-{
-   border: 0px #000000 solid;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 100%;
-   box-sizing: border-box;
-}
-#kearnyPhotoGallery1 .clearfix:before,
-#kearnyPhotoGallery1 .clearfix:after,
-#kearnyPhotoGallery1 .thumbnails:before,
-#kearnyPhotoGallery1 .thumbnails:after
-{
-   display: table;
-   content: " ";
-}
-#kearnyPhotoGallery1 .clearfix:after,
-#kearnyPhotoGallery1 .thumbnails:after
-{
-   clear: both;
-}
-#kearnyPhotoGallery1 .visible-col5
-{
-   display: block;
-}
-#indexPageFooter1
-{
-   background-color: #800000;
-   background-image: none;
-   box-sizing: border-box;
-}
-</style>
-<script src="jquery-1.7.2.min.js"></script>
-<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css">
-<script src="fancybox/jquery.easing-1.3.pack.js"></script>
-<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("a[data-rel='kearnyPhotoGallery1']").attr('rel', 'kearnyPhotoGallery1');
-   $("a[rel^='kearnyPhotoGallery1']").fancybox({theme:'facebook',social_tools:false});
-});
-</script>
-<!-- Insert Google Analytics code here -->
-</head>
-<body>
-<div id="PageHeader" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:0px;width:100%;height:120px;z-index:-1;">
-<div id="PageHeader_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Text1" style="position:absolute;left:280px;top:49px;width:434px;height:32px;text-align:center;z-index:0;">
-<span style="color:#FFFFFF;">156 Schuyler Avenue, Kearny, NJ - 07032 Phone: 201-997-5556<br>1 Gaston Avenue, Garfield, NJ - 07026&nbsp;&nbsp; Phone: 973-546-7331</span></div>
-</div>
-</div>
-<div id="indexPageFooter1" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:802px;width:100%;height:46px;z-index:-1;">
-<div id="indexPageFooter1_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_indexJavaScript1" style="position:absolute;left:40px;top:14px;width:427px;height:26px;z-index:1;">
-<div style="color:#FFFFFF;font-size:11px;font-family:Verdana;font-weight:normal;font-style:normal;text-align:left;text-decoration:none" id="copyrightnotice"></div>
-<script>
-   var now = new Date();
-   var startYear = "1980";
-   var text =  "Copyright &copy; ";
-   if (startYear != '')
-   {
-      text = text + startYear + "-";
-   }
-   text = text + now.getFullYear() + ", Hindu Community Center. All rights reserved.";
-   var copyrightnotice = document.getElementById('copyrightnotice');
-   copyrightnotice.innerHTML = text;
-</script>
+  <head>
+    <meta charset="iso-8859-1" />
+    <title>Hindu Community Center</title>
+    <meta name="description" content="Ambaji Temple Garfield" />
+    <meta
+      name="keywords"
+      content="Ambaji Mandir, Ambaji Temple Garfield, Hindu Temple Garfield, Hindu Mandir Garfield, Hindu Temple Kearny, Vaikunth Dham, Hindu Community Center"
+    />
+    <meta name="author" content="Manish Patel" />
+    <style>
+      div#container {
+        width: 994px;
+        position: relative;
+        margin: 0 auto 0 auto;
+        text-align: left;
+      }
+      body {
+        background-color: #faebd7;
+        color: #000000;
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 1.1875;
+        margin: 0;
+        text-align: center;
+      }
+      a {
+        color: #0000ff;
+        text-decoration: underline;
+      }
+      a:visited {
+        color: #800080;
+      }
+      a:active {
+        color: #ff0000;
+      }
+      a:hover {
+        color: #0000ff;
+        text-decoration: underline;
+      }
+      input:focus,
+      textarea:focus,
+      select:focus {
+        outline: none;
+      }
+      a.style1 {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a.style1:visited {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a.style1:active {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a.style1:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      #PageHeader {
+        background-color: #800000;
+        background-image: none;
+        box-sizing: border-box;
+      }
+      #wb_indexCssMenu1 {
+        border: 0px #cd5c5c solid;
+        background-color: #800000;
+        margin: 0;
+        text-align: left;
+      }
+      #wb_indexCssMenu1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      #wb_indexCssMenu1 li {
+        float: left;
+        margin: 0;
+        padding: 0px 0px 0px 0px;
+        width: 11.11%;
+      }
+      #wb_indexCssMenu1 a {
+        display: block;
+        float: left;
+        color: #000000;
+        border: 1px solid #cd5c5c;
+        background-color: #feccb1;
+        background: linear-gradient(
+          to bottom,
+          #fef8f4 0%,
+          #fee4d5 10%,
+          #fecdb2 50%,
+          #f8a97e 50%,
+          #fee0cf 100%
+        );
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 13px;
+        font-style: normal;
+        text-decoration: none;
+        width: 84.97%;
+        height: 26px;
+        padding: 0px 5px 0px 5px;
+        vertical-align: middle;
+        line-height: 26px;
+        text-align: center;
+      }
+      #wb_indexCssMenu1 li:hover a,
+      #wb_indexCssMenu1 a:hover,
+      #wb_indexCssMenu1 .active {
+        color: #ffffff;
+        background-color: #ff3333;
+        background: linear-gradient(
+          to bottom,
+          #ffe4e4 0%,
+          #ff9393 10%,
+          #ff3737 50%,
+          #d71f1f 50%,
+          #ff8383 100%
+        );
+        border: 1px #800000 #8A0EE2019A7EC75719F40;
+      }
+      #wb_indexCssMenu1 li.firstmain {
+        padding-left: 0px;
+      }
+      #wb_indexCssMenu1 li.lastmain {
+        padding-right: 0px;
+      }
+      #wb_indexCssMenu1 li:hover,
+      #wb_indexCssMenu1 li a:hover {
+        position: relative;
+      }
+      #wb_indexCssMenu1 a.withsubmenu {
+        padding: 0 5px 0 5px;
+        width: 84.97%;
+      }
+      #wb_indexCssMenu1 li:hover a.withsubmenu,
+      #wb_indexCssMenu1 a.withsubmenu:hover {
+      }
+      #wb_indexCssMenu1 ul ul {
+        position: absolute;
+        left: 0;
+        top: 0;
+        visibility: hidden;
+        width: 100px;
+        height: auto;
+        border: none;
+        background-color: #800000;
+      }
+      #wb_indexCssMenu1 ul :hover ul {
+        left: 0px;
+        top: 28px;
+        padding-top: 0px;
+        visibility: visible;
+      }
+      #wb_indexCssMenu1 .firstmain:hover ul {
+        left: 0px;
+      }
+      #wb_indexCssMenu1 li li {
+        width: 100px;
+        padding: 0 0px 0px 0px;
+        border: 0px #cd5c5c solid;
+        border-width: 0 0px;
+      }
+      #wb_indexCssMenu1 li li.firstitem {
+        border-top: 0px #cd5c5c solid;
+      }
+      #wb_indexCssMenu1 li li.lastitem {
+        border-bottom: 0px #cd5c5c solid;
+      }
+      #wb_indexCssMenu1 ul ul a,
+      #wb_indexCssMenu1 ul :hover ul a {
+        float: none;
+        margin: 0;
+        width: 86px;
+        height: auto;
+        white-space: normal;
+        padding: 7px 6px 6px 6px;
+        background-color: #feccb1;
+        background: linear-gradient(
+          to bottom,
+          #fef8f4 0%,
+          #fee4d5 10%,
+          #fecdb2 50%,
+          #f8a97e 50%,
+          #fee0cf 100%
+        );
+        border: 1px solid #cd5c5c;
+        color: #333333;
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 13px;
+        font-style: normal;
+        line-height: 13px;
+        text-align: left;
+        text-decoration: none;
+      }
+      #wb_indexCssMenu1 ul :hover ul .firstitem a {
+        margin-top: 0px;
+      }
+      #wb_indexCssMenu1 ul ul :hover a,
+      #wb_indexCssMenu1 ul ul a:hover,
+      #wb_indexCssMenu1 ul ul :hover ul :hover a,
+      #wb_indexCssMenu1 ul ul :hover ul a:hover {
+        background-color: #ff3333;
+        background: linear-gradient(
+          to bottom,
+          #ffe4e4 0%,
+          #ff9393 10%,
+          #ff3737 50%,
+          #d71f1f 50%,
+          #ff8383 100%
+        );
+        border: 1px solid #800000;
+        color: #ffffff;
+      }
+      #wb_indexCssMenu1 br {
+        clear: both;
+        font-size: 1px;
+        height: 0;
+        line-height: 0;
+      }
+      #wb_Text1 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      #wb_Text1 {
+        font-family: Verdana;
+        font-weight: normal;
+        font-size: 13px;
+      }
+      #wb_Text1 div {
+        text-align: center;
+      }
+      #wb_indexText1 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      #wb_indexText1 {
+        font-family: Verdana;
+        font-weight: normal;
+        font-size: 35px;
+      }
+      #wb_indexText1 div {
+        text-align: center;
+      }
+      #kearnyPhotoGallery1 {
+        box-sizing: border-box;
+        font-size: 0;
+        width: 100%;
+        height: 100%;
+        table-layout: fixed;
+        display: table;
+        margin: 0;
+      }
+      #kearnyPhotoGallery1 .thumbnails {
+        margin: 0;
+      }
+      #kearnyPhotoGallery1 .thumbnail {
+        position: relative;
+        min-height: 1px;
+        box-sizing: border-box;
+        float: left;
+        padding: 3px 3px 3px 3px;
+        width: 20%;
+        text-align: center;
+        vertical-align: top;
+      }
+      #kearnyPhotoGallery1 .thumbnail img {
+        border: 0px #000000 solid;
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+      }
+      #kearnyPhotoGallery1 .clearfix:before,
+      #kearnyPhotoGallery1 .clearfix:after,
+      #kearnyPhotoGallery1 .thumbnails:before,
+      #kearnyPhotoGallery1 .thumbnails:after {
+        display: table;
+        content: " ";
+      }
+      #kearnyPhotoGallery1 .clearfix:after,
+      #kearnyPhotoGallery1 .thumbnails:after {
+        clear: both;
+      }
+      #kearnyPhotoGallery1 .visible-col5 {
+        display: block;
+      }
+      #indexPageFooter1 {
+        background-color: #800000;
+        background-image: none;
+        box-sizing: border-box;
+      }
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" />
+    <script src="fancybox/jquery.easing-1.3.pack.js"></script>
+    <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("a[data-rel='kearnyPhotoGallery1']").attr(
+          "rel",
+          "kearnyPhotoGallery1"
+        );
+        $("a[rel^='kearnyPhotoGallery1']").fancybox({
+          theme: "facebook",
+          social_tools: false,
+        });
+      });
+    </script>
+    <!-- Insert Google Analytics code here -->
+  </head>
+  <body>
+    <div
+      id="PageHeader"
+      style="
+        position: absolute;
+        overflow: hidden;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 120px;
+        z-index: -1;
+      "
+    >
+      <div
+        id="PageHeader_Container"
+        style="
+          width: 994px;
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+        "
+      >
+        <div
+          id="wb_Text1"
+          style="
+            position: absolute;
+            left: 280px;
+            top: 49px;
+            width: 434px;
+            height: 32px;
+            text-align: center;
+            z-index: 0;
+          "
+        >
+          <span style="color: #ffffff"
+            >156 Schuyler Avenue, Kearny, NJ - 07032 Phone: 201-997-5556<br />1
+            Gaston Avenue, Garfield, NJ - 07026&nbsp;&nbsp; Phone:
+            973-546-7331</span
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      id="indexPageFooter1"
+      style="
+        position: absolute;
+        overflow: hidden;
+        text-align: center;
+        left: 0px;
+        top: 802px;
+        width: 100%;
+        height: 46px;
+        z-index: -1;
+      "
+    >
+      <div
+        id="indexPageFooter1_Container"
+        style="
+          width: 994px;
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+        "
+      >
+        <div
+          id="wb_indexJavaScript1"
+          style="
+            position: absolute;
+            left: 40px;
+            top: 14px;
+            width: 427px;
+            height: 26px;
+            z-index: 1;
+          "
+        >
+          <div
+            style="
+              color: #ffffff;
+              font-size: 11px;
+              font-family: Verdana;
+              font-weight: normal;
+              font-style: normal;
+              text-align: left;
+              text-decoration: none;
+            "
+            id="copyrightnotice"
+          ></div>
+          <script>
+            var now = new Date();
+            var startYear = "1980";
+            var text = "Copyright &copy; ";
+            if (startYear != "") {
+              text = text + startYear + "-";
+            }
+            text =
+              text +
+              now.getFullYear() +
+              ", Hindu Community Center. All rights reserved.";
+            var copyrightnotice = document.getElementById("copyrightnotice");
+            copyrightnotice.innerHTML = text;
+          </script>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <div
+        id="wb_indexCssMenu1"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 89px;
+          width: 994px;
+          height: 31px;
+          z-index: 2;
+        "
+      >
+        <ul role="menubar">
+          <li class="firstmain">
+            <a role="menuitem" href="./" target="_self">Home</a>
+          </li>
+          <li>
+            <a role="menuitem" href="./aboutus.html" target="_self"
+              >About&nbsp;Us</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./events.html" target="_self">Events</a>
+          </li>
+          <li>
+            <a
+              role="menuitem"
+              class="withsubmenu"
+              href="./garfield.html"
+              target="_self"
+              >Ambaji&nbsp;Mandir</a
+            >
 
+            <ul role="menu">
+              <li class="firstitem lastitem">
+                <a role="menuitem" href="./ggallery.html" target="_self"
+                  >Media&nbsp;Gallery</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              role="menuitem"
+              class="withsubmenu"
+              href="./kearny.html"
+              target="_self"
+              >Vaikunth&nbsp;Dham</a
+            >
 
-</div>
-</div>
-</div>
-<div id="container">
-<div id="wb_indexCssMenu1" style="position:absolute;left:0px;top:89px;width:994px;height:31px;z-index:2;">
-<ul role="menubar">
-<li class="firstmain"><a role="menuitem" href="./index.html" target="_self">Home</a>
-</li>
-<li><a role="menuitem" href="./aboutus.html" target="_self">About&nbsp;Us</a>
-</li>
-<li><a role="menuitem" href="./events.html" target="_self">Events</a>
-</li>
-<li><a role="menuitem" class="withsubmenu" href="./garfield.html" target="_self">Ambaji&nbsp;Mandir</a>
-
-<ul role="menu">
-<li class="firstitem lastitem"><a role="menuitem" href="./ggallery.html" target="_self">Media&nbsp;Gallery</a>
-</li>
-</ul>
-</li>
-<li><a role="menuitem" class="withsubmenu" href="./kearny.html" target="_self">Vaikunth&nbsp;Dham</a>
-
-<ul role="menu">
-<li class="firstitem lastitem"><a role="menuitem" class="active" href="./kgallery.html" target="_self">Media&nbsp;Gallery</a>
-</li>
-</ul>
-</li>
-<li><a role="menuitem" href="./vk.html" target="_self">Vidya&nbsp;Kendra</a>
-</li>
-<li><a role="menuitem" href="./hall.html" target="_self">Banquet&nbsp;Halls</a>
-</li>
-<li><a role="menuitem" href="./donation.html" target="_self">Donation</a>
-</li>
-<li><a role="menuitem" href="./contact.html" target="_self">Contact&nbsp;Us</a>
-</li>
-</ul>
-</div>
-<div id="wb_indexText1" style="position:absolute;left:268px;top:3px;width:458px;height:42px;text-align:center;z-index:3;">
-<span style="color:#FFFFFF;"><a href="http://hindumandirnj.org/index.html" class="style1">Hindu Community Center</a></span></div>
-<div id="wb_kearnyPhotoGallery1" style="position:absolute;left:15px;top:170px;width:965px;height:255px;z-index:4;">
-<div id="kearnyPhotoGallery1">
-   <div class="thumbnails">
-      <div class="thumbnail">
-         <a href="images/Ganeshji_1.jpg" data-rel="kearnyPhotoGallery1"><img alt="" src="images/tn_Ganeshji_1.jpg"></a>
+            <ul role="menu">
+              <li class="firstitem lastitem">
+                <a
+                  role="menuitem"
+                  class="active"
+                  href="./kgallery.html"
+                  target="_self"
+                  >Media&nbsp;Gallery</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a role="menuitem" href="./vk.html" target="_self"
+              >Vidya&nbsp;Kendra</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./hall.html" target="_self"
+              >Banquet&nbsp;Halls</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./donation.html" target="_self"
+              >Donation</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./contact.html" target="_self"
+              >Contact&nbsp;Us</a
+            >
+          </li>
+        </ul>
       </div>
-      <div class="thumbnail">
-         <a href="images/Shiva_1.jpg" data-rel="kearnyPhotoGallery1"><img alt="" src="images/tn_Shiva_1.jpg"></a>
+      <div
+        id="wb_indexText1"
+        style="
+          position: absolute;
+          left: 268px;
+          top: 3px;
+          width: 458px;
+          height: 42px;
+          text-align: center;
+          z-index: 3;
+        "
+      >
+        <span style="color: #ffffff"
+          ><a href="./" class="style1">Hindu Community Center</a></span
+        >
       </div>
-      <div class="thumbnail">
-         <a href="images/LakshmiNarayan.jpg" data-rel="kearnyPhotoGallery1"><img alt="" src="images/tn_LakshmiNarayan.jpg"></a>
+      <div
+        id="wb_kearnyPhotoGallery1"
+        style="
+          position: absolute;
+          left: 15px;
+          top: 170px;
+          width: 965px;
+          height: 255px;
+          z-index: 4;
+        "
+      >
+        <div id="kearnyPhotoGallery1">
+          <div class="thumbnails">
+            <div class="thumbnail">
+              <a href="images/Ganeshji_1.jpg" data-rel="kearnyPhotoGallery1"
+                ><img alt="" src="images/tn_Ganeshji_1.jpg"
+              /></a>
+            </div>
+            <div class="thumbnail">
+              <a href="images/Shiva_1.jpg" data-rel="kearnyPhotoGallery1"
+                ><img alt="" src="images/tn_Shiva_1.jpg"
+              /></a>
+            </div>
+            <div class="thumbnail">
+              <a href="images/LakshmiNarayan.jpg" data-rel="kearnyPhotoGallery1"
+                ><img alt="" src="images/tn_LakshmiNarayan.jpg"
+              /></a>
+            </div>
+            <div class="thumbnail">
+              <a href="images/Gayatri_1.jpg" data-rel="kearnyPhotoGallery1"
+                ><img alt="" src="images/tn_Gayatri_1.jpg"
+              /></a>
+            </div>
+            <div class="thumbnail">
+              <a href="images/Hanumanji_1.jpg" data-rel="kearnyPhotoGallery1"
+                ><img alt="" src="images/tn_Hanumanji_1.jpg"
+              /></a>
+            </div>
+            <div class="clearfix visible-col5"></div>
+          </div>
+        </div>
       </div>
-      <div class="thumbnail">
-         <a href="images/Gayatri_1.jpg" data-rel="kearnyPhotoGallery1"><img alt="" src="images/tn_Gayatri_1.jpg"></a>
-      </div>
-      <div class="thumbnail">
-         <a href="images/Hanumanji_1.jpg" data-rel="kearnyPhotoGallery1"><img alt="" src="images/tn_Hanumanji_1.jpg"></a>
-      </div>
-      <div class="clearfix visible-col5"></div>
-   </div>
-</div></div>
-</div>
-</body>
+    </div>
+  </body>
 </html>

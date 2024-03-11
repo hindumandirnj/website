@@ -1,415 +1,763 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="iso-8859-1">
-<title>Hindu Community Center</title>
-<meta name="description" content="Ambaji Temple Garfield">
-<meta name="keywords" content="Ambaji Mandir, Ambaji Temple Garfield, Hindu Temple Garfield, Hindu Mandir Garfield, Hindu Temple Kearny, Vaikunth Dham, Hindu Community Center">
-<meta name="author" content="Manish Patel">
-<style>
-div#container
-{
-   width: 994px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
-body
-{
-   background-color: #FAEBD7;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
-   text-align: center;
-}
-a
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-a:visited
-{
-   color: #800080;
-}
-a:active
-{
-   color: #FF0000;
-}
-a:hover
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-input:focus, textarea:focus, select:focus
-{
-   outline: none;
-}
-a.style1
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-a.style1:visited
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-a.style1:active
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-a.style1:hover
-{
-   color: #FFFFFF;
-   text-decoration: none;
-}
-#PageHeader
-{
-   background-color: #800000;
-   background-image: none;
-   box-sizing: border-box;
-}
-#wb_indexText3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_indexText3
-{
-   font-family: Verdana;
-   font-weight: normal;
-   font-size: 16px;
-}
-#wb_indexText3 div
-{
-   text-align: left;
-}
-#wb_aboutusText1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_aboutusText1
-{
-   font-family: "Lucida Sans Unicode";
-   font-weight: normal;
-   font-size: 15px;
-}
-#wb_aboutusText1 div
-{
-   text-align: justify;
-   white-space: normal;
-}
-#wb_indexCssMenu1
-{
-   border: 0px #CD5C5C solid;
-   background-color: #800000;
-   margin: 0;
-   text-align: center;
-}
-#wb_indexCssMenu1 ul
-{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-}
-#wb_indexCssMenu1 li
-{
-   float: left;
-   margin: 0;
-   padding: 0px 0px 0px 0px;
-   width: 11.11%;
-}
-#wb_indexCssMenu1 a
-{
-   display: block;
-   float: left;
-   color: #000000;
-   border: 1px solid #CD5C5C;
-   background-color: #FECCB1;
-   background: linear-gradient(to bottom, #FEF8F4 0%, #FEE4D5 10%, #FECDB2 50%, #F8A97E 50%, #FEE0CF 100%);
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
-   font-style: normal;
-   text-decoration: none;
-   width: 84.97%;
-   height: 26px;
-   padding: 0px 5px 0px 5px;
-   vertical-align: middle;
-   line-height: 26px;
-   text-align: center;
-}
-#wb_indexCssMenu1 li:hover a, #wb_indexCssMenu1 a:hover, #wb_indexCssMenu1 .active
-{
-   color: #FFFFFF;
-   background-color: #FF3333;
-   background: linear-gradient(to bottom, #FFE4E4 0%, #FF9393 10%, #FF3737 50%, #D71F1F 50%, #FF8383 100%);
-   border: 1px #800000 #4C85D1019B3B075719F40;
-}
-#wb_indexCssMenu1 li.firstmain
-{
-   padding-left: 0px;
-}
-#wb_indexCssMenu1 li.lastmain
-{
-   padding-right: 0px;
-}
-#wb_indexCssMenu1 li:hover, #wb_indexCssMenu1 li a:hover
-{
-   position: relative;
-}
-#wb_indexCssMenu1 a.withsubmenu
-{
-   padding: 0 5px 0 5px;
-   width: 84.97%;
-}
-#wb_indexCssMenu1 li:hover a.withsubmenu, #wb_indexCssMenu1 a.withsubmenu:hover
-{
-}
-#wb_indexCssMenu1 ul ul
-{
-   position: absolute;
-   left: 0;
-   top: 0;
-   visibility: hidden;
-   width: 100px;
-   height: auto;
-   border: none;
-   background-color: #800000;
-}
-#wb_indexCssMenu1 ul :hover ul
-{
-   left: 0px;
-   top: 28px;
-   padding-top: 0px;
-   visibility: visible;
-}
-#wb_indexCssMenu1 .firstmain:hover ul
-{
-   left: 0px;
-}
-#wb_indexCssMenu1 li li
-{
-   width: 100px;
-   padding: 0 0px 0px 0px;
-   border: 0px #CD5C5C solid;
-   border-width: 0 0px;
-}
-#wb_indexCssMenu1 li li.firstitem
-{
-   border-top: 0px #CD5C5C solid;
-}
-#wb_indexCssMenu1 li li.lastitem
-{
-   border-bottom: 0px #CD5C5C solid;
-}
-#wb_indexCssMenu1 ul ul a, #wb_indexCssMenu1 ul :hover ul a
-{
-   float: none;
-   margin: 0;
-   width: 86px;
-   height: auto;
-   white-space: normal;
-   padding: 7px 6px 6px 6px;
-   background-color: #FECCB1;
-   background: linear-gradient(to bottom, #FEF8F4 0%, #FEE4D5 10%, #FECDB2 50%, #F8A97E 50%, #FEE0CF 100%);
-   border: 1px solid #CD5C5C;
-   color: #333333;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
-   font-style: normal;
-   line-height: 13px;
-   text-align: left;
-   text-decoration: none;
-}
-#wb_indexCssMenu1 ul :hover ul .firstitem a
-{
-   margin-top: 0px;
-}
-#wb_indexCssMenu1 ul ul :hover a, #wb_indexCssMenu1 ul ul a:hover, #wb_indexCssMenu1 ul ul :hover ul :hover a, #wb_indexCssMenu1 ul ul :hover ul a:hover
-{
-   background-color: #FF3333;
-   background: linear-gradient(to bottom, #FFE4E4 0%, #FF9393 10%, #FF3737 50%, #D71F1F 50%, #FF8383 100%);
-   border: 1px solid #800000;
-   color: #FFFFFF;
-}
-#wb_indexCssMenu1 br
-{
-   clear: both;
-   font-size: 1px;
-   height: 0;
-   line-height: 0;
-}
-#wb_Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text1
-{
-   font-family: Verdana;
-   font-weight: normal;
-   font-size: 13px;
-}
-#wb_Text1 div
-{
-   text-align: center;
-}
-#wb_aboutusText2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_aboutusText2
-{
-   font-family: "Lucida Sans Unicode";
-   font-weight: normal;
-   font-size: 15px;
-}
-#wb_aboutusText2 div
-{
-   text-align: center;
-}
-#wb_aboutusText3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: justify;
-}
-#wb_aboutusText3
-{
-   font-family: "Lucida Sans Unicode";
-   font-weight: normal;
-   font-size: 15px;
-}
-#wb_aboutusText3 div
-{
-   text-align: justify;
-   white-space: normal;
-}
-#wb_indexText1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_indexText1
-{
-   font-family: Verdana;
-   font-weight: normal;
-   font-size: 35px;
-}
-#wb_indexText1 div
-{
-   text-align: center;
-}
-#indexPageFooter1
-{
-   background-color: #800000;
-   background-image: none;
-   box-sizing: border-box;
-}
-</style>
-</head>
-<body>
-<div id="PageHeader" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:0px;width:100%;height:120px;z-index:-1;">
-<div id="PageHeader_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Text1" style="position:absolute;left:280px;top:49px;width:434px;height:32px;text-align:center;z-index:0;">
-<span style="color:#FFFFFF;">156 Schuyler Avenue, Kearny, NJ - 07032 Phone: 201-997-5556<br>1 Gaston Avenue, Garfield, NJ - 07026&nbsp;&nbsp; Phone: 973-546-7331</span></div>
-</div>
-</div>
-<div id="indexPageFooter1" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:3234px;width:100%;height:46px;z-index:-1;">
-<div id="indexPageFooter1_Container" style="width:994px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_indexJavaScript1" style="position:absolute;left:40px;top:14px;width:427px;height:26px;z-index:1;">
-<div style="color:#FFFFFF;font-size:11px;font-family:Verdana;font-weight:normal;font-style:normal;text-align:left;text-decoration:none" id="copyrightnotice"></div>
-<script>
-   var now = new Date();
-   var startYear = "1980";
-   var text =  "Copyright &copy; ";
-   if (startYear != '')
-   {
-      text = text + startYear + "-";
-   }
-   text = text + now.getFullYear() + ", Hindu Community Center. All rights reserved.";
-   var copyrightnotice = document.getElementById('copyrightnotice');
-   copyrightnotice.innerHTML = text;
-</script>
+  <head>
+    <meta charset="iso-8859-1" />
+    <title>Hindu Community Center</title>
+    <meta name="description" content="Ambaji Temple Garfield" />
+    <meta
+      name="keywords"
+      content="Ambaji Mandir, Ambaji Temple Garfield, Hindu Temple Garfield, Hindu Mandir Garfield, Hindu Temple Kearny, Vaikunth Dham, Hindu Community Center"
+    />
+    <meta name="author" content="Manish Patel" />
+    <style>
+      div#container {
+        width: 994px;
+        position: relative;
+        margin: 0 auto 0 auto;
+        text-align: left;
+      }
+      body {
+        background-color: #faebd7;
+        color: #000000;
+        font-family: Arial;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 1.1875;
+        margin: 0;
+        text-align: center;
+      }
+      a {
+        color: #0000ff;
+        text-decoration: underline;
+      }
+      a:visited {
+        color: #800080;
+      }
+      a:active {
+        color: #ff0000;
+      }
+      a:hover {
+        color: #0000ff;
+        text-decoration: underline;
+      }
+      input:focus,
+      textarea:focus,
+      select:focus {
+        outline: none;
+      }
+      a.style1 {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a.style1:visited {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a.style1:active {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a.style1:hover {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      #PageHeader {
+        background-color: #800000;
+        background-image: none;
+        box-sizing: border-box;
+      }
+      #wb_indexText3 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+      }
+      #wb_indexText3 {
+        font-family: Verdana;
+        font-weight: normal;
+        font-size: 16px;
+      }
+      #wb_indexText3 div {
+        text-align: left;
+      }
+      #wb_aboutusText1 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: justify;
+      }
+      #wb_aboutusText1 {
+        font-family: "Lucida Sans Unicode";
+        font-weight: normal;
+        font-size: 15px;
+      }
+      #wb_aboutusText1 div {
+        text-align: justify;
+        white-space: normal;
+      }
+      #wb_indexCssMenu1 {
+        border: 0px #cd5c5c solid;
+        background-color: #800000;
+        margin: 0;
+        text-align: center;
+      }
+      #wb_indexCssMenu1 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      #wb_indexCssMenu1 li {
+        float: left;
+        margin: 0;
+        padding: 0px 0px 0px 0px;
+        width: 11.11%;
+      }
+      #wb_indexCssMenu1 a {
+        display: block;
+        float: left;
+        color: #000000;
+        border: 1px solid #cd5c5c;
+        background-color: #feccb1;
+        background: linear-gradient(
+          to bottom,
+          #fef8f4 0%,
+          #fee4d5 10%,
+          #fecdb2 50%,
+          #f8a97e 50%,
+          #fee0cf 100%
+        );
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 13px;
+        font-style: normal;
+        text-decoration: none;
+        width: 84.97%;
+        height: 26px;
+        padding: 0px 5px 0px 5px;
+        vertical-align: middle;
+        line-height: 26px;
+        text-align: center;
+      }
+      #wb_indexCssMenu1 li:hover a,
+      #wb_indexCssMenu1 a:hover,
+      #wb_indexCssMenu1 .active {
+        color: #ffffff;
+        background-color: #ff3333;
+        background: linear-gradient(
+          to bottom,
+          #ffe4e4 0%,
+          #ff9393 10%,
+          #ff3737 50%,
+          #d71f1f 50%,
+          #ff8383 100%
+        );
+        border: 1px #800000 #4C85D1019B3B075719F40;
+      }
+      #wb_indexCssMenu1 li.firstmain {
+        padding-left: 0px;
+      }
+      #wb_indexCssMenu1 li.lastmain {
+        padding-right: 0px;
+      }
+      #wb_indexCssMenu1 li:hover,
+      #wb_indexCssMenu1 li a:hover {
+        position: relative;
+      }
+      #wb_indexCssMenu1 a.withsubmenu {
+        padding: 0 5px 0 5px;
+        width: 84.97%;
+      }
+      #wb_indexCssMenu1 li:hover a.withsubmenu,
+      #wb_indexCssMenu1 a.withsubmenu:hover {
+      }
+      #wb_indexCssMenu1 ul ul {
+        position: absolute;
+        left: 0;
+        top: 0;
+        visibility: hidden;
+        width: 100px;
+        height: auto;
+        border: none;
+        background-color: #800000;
+      }
+      #wb_indexCssMenu1 ul :hover ul {
+        left: 0px;
+        top: 28px;
+        padding-top: 0px;
+        visibility: visible;
+      }
+      #wb_indexCssMenu1 .firstmain:hover ul {
+        left: 0px;
+      }
+      #wb_indexCssMenu1 li li {
+        width: 100px;
+        padding: 0 0px 0px 0px;
+        border: 0px #cd5c5c solid;
+        border-width: 0 0px;
+      }
+      #wb_indexCssMenu1 li li.firstitem {
+        border-top: 0px #cd5c5c solid;
+      }
+      #wb_indexCssMenu1 li li.lastitem {
+        border-bottom: 0px #cd5c5c solid;
+      }
+      #wb_indexCssMenu1 ul ul a,
+      #wb_indexCssMenu1 ul :hover ul a {
+        float: none;
+        margin: 0;
+        width: 86px;
+        height: auto;
+        white-space: normal;
+        padding: 7px 6px 6px 6px;
+        background-color: #feccb1;
+        background: linear-gradient(
+          to bottom,
+          #fef8f4 0%,
+          #fee4d5 10%,
+          #fecdb2 50%,
+          #f8a97e 50%,
+          #fee0cf 100%
+        );
+        border: 1px solid #cd5c5c;
+        color: #333333;
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 13px;
+        font-style: normal;
+        line-height: 13px;
+        text-align: left;
+        text-decoration: none;
+      }
+      #wb_indexCssMenu1 ul :hover ul .firstitem a {
+        margin-top: 0px;
+      }
+      #wb_indexCssMenu1 ul ul :hover a,
+      #wb_indexCssMenu1 ul ul a:hover,
+      #wb_indexCssMenu1 ul ul :hover ul :hover a,
+      #wb_indexCssMenu1 ul ul :hover ul a:hover {
+        background-color: #ff3333;
+        background: linear-gradient(
+          to bottom,
+          #ffe4e4 0%,
+          #ff9393 10%,
+          #ff3737 50%,
+          #d71f1f 50%,
+          #ff8383 100%
+        );
+        border: 1px solid #800000;
+        color: #ffffff;
+      }
+      #wb_indexCssMenu1 br {
+        clear: both;
+        font-size: 1px;
+        height: 0;
+        line-height: 0;
+      }
+      #wb_Text1 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      #wb_Text1 {
+        font-family: Verdana;
+        font-weight: normal;
+        font-size: 13px;
+      }
+      #wb_Text1 div {
+        text-align: center;
+      }
+      #wb_aboutusText2 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      #wb_aboutusText2 {
+        font-family: "Lucida Sans Unicode";
+        font-weight: normal;
+        font-size: 15px;
+      }
+      #wb_aboutusText2 div {
+        text-align: center;
+      }
+      #wb_aboutusText3 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: justify;
+      }
+      #wb_aboutusText3 {
+        font-family: "Lucida Sans Unicode";
+        font-weight: normal;
+        font-size: 15px;
+      }
+      #wb_aboutusText3 div {
+        text-align: justify;
+        white-space: normal;
+      }
+      #wb_indexText1 {
+        background-color: transparent;
+        background-image: none;
+        border: 0px solid #000000;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      #wb_indexText1 {
+        font-family: Verdana;
+        font-weight: normal;
+        font-size: 35px;
+      }
+      #wb_indexText1 div {
+        text-align: center;
+      }
+      #indexPageFooter1 {
+        background-color: #800000;
+        background-image: none;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="PageHeader"
+      style="
+        position: absolute;
+        overflow: hidden;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 120px;
+        z-index: -1;
+      "
+    >
+      <div
+        id="PageHeader_Container"
+        style="
+          width: 994px;
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+        "
+      >
+        <div
+          id="wb_Text1"
+          style="
+            position: absolute;
+            left: 280px;
+            top: 49px;
+            width: 434px;
+            height: 32px;
+            text-align: center;
+            z-index: 0;
+          "
+        >
+          <span style="color: #ffffff"
+            >156 Schuyler Avenue, Kearny, NJ - 07032 Phone: 201-997-5556<br />1
+            Gaston Avenue, Garfield, NJ - 07026&nbsp;&nbsp; Phone:
+            973-546-7331</span
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      id="indexPageFooter1"
+      style="
+        position: absolute;
+        overflow: hidden;
+        text-align: center;
+        left: 0px;
+        top: 3234px;
+        width: 100%;
+        height: 46px;
+        z-index: -1;
+      "
+    >
+      <div
+        id="indexPageFooter1_Container"
+        style="
+          width: 994px;
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+        "
+      >
+        <div
+          id="wb_indexJavaScript1"
+          style="
+            position: absolute;
+            left: 40px;
+            top: 14px;
+            width: 427px;
+            height: 26px;
+            z-index: 1;
+          "
+        >
+          <div
+            style="
+              color: #ffffff;
+              font-size: 11px;
+              font-family: Verdana;
+              font-weight: normal;
+              font-style: normal;
+              text-align: left;
+              text-decoration: none;
+            "
+            id="copyrightnotice"
+          ></div>
+          <script>
+            var now = new Date();
+            var startYear = "1980";
+            var text = "Copyright &copy; ";
+            if (startYear != "") {
+              text = text + startYear + "-";
+            }
+            text =
+              text +
+              now.getFullYear() +
+              ", Hindu Community Center. All rights reserved.";
+            var copyrightnotice = document.getElementById("copyrightnotice");
+            copyrightnotice.innerHTML = text;
+          </script>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <div
+        id="wb_indexText3"
+        style="
+          position: absolute;
+          left: 18px;
+          top: 170px;
+          width: 962px;
+          height: 18px;
+          z-index: 2;
+        "
+      >
+        <span style="color: #800000"
+          ><strong>About Us and Our History</strong></span
+        >
+      </div>
+      <div
+        id="wb_aboutusText1"
+        style="
+          position: absolute;
+          left: 15px;
+          top: 209px;
+          width: 965px;
+          height: 78px;
+          text-align: justify;
+          z-index: 3;
+        "
+      >
+        <span style="color: #000000"
+          >Over the years, since 1980, we have been welcoming devotees and their
+          families and we have always been blesssed by the Lords and with their
+          blessing we have been able to run various activities; a brief,
+          yearwise synopsis of these 35 years&nbsp; (1980 - 2015) are humbly
+          presented here.</span
+        >
+      </div>
+      <div
+        id="wb_indexCssMenu1"
+        style="
+          position: absolute;
+          left: 0px;
+          top: 89px;
+          width: 994px;
+          height: 31px;
+          z-index: 4;
+        "
+      >
+        <ul role="menubar">
+          <li class="firstmain">
+            <a role="menuitem" href="./" target="_self">Home</a>
+          </li>
+          <li>
+            <a
+              role="menuitem"
+              class="active"
+              href="./aboutus.html"
+              target="_self"
+              >About&nbsp;Us</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./events.html" target="_self">Events</a>
+          </li>
+          <li>
+            <a
+              role="menuitem"
+              class="withsubmenu"
+              href="./garfield.html"
+              target="_self"
+              >Ambaji&nbsp;Mandir</a
+            >
 
+            <ul role="menu">
+              <li class="firstitem lastitem">
+                <a role="menuitem" href="./ggallery.html" target="_self"
+                  >Media&nbsp;Gallery</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a
+              role="menuitem"
+              class="withsubmenu"
+              href="./kearny.html"
+              target="_self"
+              >Vaikunth&nbsp;Dham</a
+            >
 
-</div>
-</div>
-</div>
-<div id="container">
-<div id="wb_indexText3" style="position:absolute;left:18px;top:170px;width:962px;height:18px;z-index:2;">
-<span style="color:#800000;"><strong>About Us and Our History</strong></span></div>
-<div id="wb_aboutusText1" style="position:absolute;left:15px;top:209px;width:965px;height:78px;text-align:justify;z-index:3;">
-<span style="color:#000000;">Over the years, since 1980, we have been welcoming devotees and their families and we have always been blesssed by the Lords and with their blessing we have been able to run various activities; a brief, yearwise synopsis of these 35 years&nbsp; (1980 - 2015) are humbly presented here.</span></div>
-<div id="wb_indexCssMenu1" style="position:absolute;left:0px;top:89px;width:994px;height:31px;z-index:4;">
-<ul role="menubar">
-<li class="firstmain"><a role="menuitem" href="./index.html" target="_self">Home</a>
-</li>
-<li><a role="menuitem" class="active" href="./aboutus.html" target="_self">About&nbsp;Us</a>
-</li>
-<li><a role="menuitem" href="./events.html" target="_self">Events</a>
-</li>
-<li><a role="menuitem" class="withsubmenu" href="./garfield.html" target="_self">Ambaji&nbsp;Mandir</a>
-
-<ul role="menu">
-<li class="firstitem lastitem"><a role="menuitem" href="./ggallery.html" target="_self">Media&nbsp;Gallery</a>
-</li>
-</ul>
-</li>
-<li><a role="menuitem" class="withsubmenu" href="./kearny.html" target="_self">Vaikunth&nbsp;Dham</a>
-
-<ul role="menu">
-<li class="firstitem lastitem"><a role="menuitem" href="./kgallery.html" target="_self">Media&nbsp;Gallery</a>
-</li>
-</ul>
-</li>
-<li><a role="menuitem" href="./vk.html" target="_self">Vidya&nbsp;Kendra</a>
-</li>
-<li><a role="menuitem" href="./hall.html" target="_self">Banquet&nbsp;Halls</a>
-</li>
-<li><a role="menuitem" href="./donation.html" target="_self">Donation</a>
-</li>
-<li><a role="menuitem" href="./contact.html" target="_self">Contact&nbsp;Us</a>
-</li>
-</ul>
-</div>
-<div id="wb_aboutusText2" style="position:absolute;left:15px;top:301px;width:965px;height:18px;text-align:center;z-index:5;">
-<span style="color:#000000;"><strong><u>Activities at a glance from 1980 to 2015</u></strong></span></div>
-<div id="wb_aboutusText3" style="position:absolute;left:15px;top:347px;width:965px;height:2886px;text-align:justify;z-index:6;">
-<span style="color:#000000;"><strong>1980&nbsp;&nbsp; Establishment of Hindu Community Center:</strong><br>Established as Non-Profit religious and cultural organization. Purchased 1 Gaston Ave. Garfield, NJ, property to house a Sanatan Mandir for Indian Community.<br> <br><strong>1981&nbsp;&nbsp; First Sanatan Mandir with Panchayatan Devas named as Hindu Mandir formally opened in greater Tri State area at 1 Gaston Avenue, Garfield, NJ.</strong><br>- Vidya Kendra, a one room - Sunday School for learning Gujarati, Hindi and cultural dances started at Hindu Mandir, Garfield.<br><br><strong>1982&nbsp;&nbsp; Altar Construction and other minor renovations</strong><br>Installation of Idols.<br><br><strong>1983&nbsp;&nbsp; Pran Pratishtha celebration:</strong> Installation of Lord Panchayatan Devas under guidance of H.H. Shri Narhariprasad Shastri. The Hindu Mandir was formally open.<br><br><strong>1986&nbsp;&nbsp; Medical Center:</strong> a Saturday medical check up center started. Offered free medical check up to community members and elderly parents who did not have medical insurance.<br><br><strong>1988&nbsp;&nbsp; Fifth Patotsava:</strong> anniversary of Pran Pratishtha celebrated. Shubha Swadia and group presented a three hour cultural and folk dances stage show.<br><br><strong>1991&nbsp;&nbsp; Yoga Class:</strong> First Yoga Class started at Hindu Mandir, Garfield under guidance of Shri Champaklal Bhavsar, long time disciple of Swami Krupalanandji of Kayavarohan, India.<br><br><strong>1993&nbsp;&nbsp; Kearny Facility:</strong> Hindu Community Center purchased a 32000 sq.ft property at Kearny, NJ, to expand its activities and provide hall facilities for the community use.<br>Dashabdi Mahotsava of Pran Pratishtha of Hindu Mandir, Garfield.<br>Opened Lakshmi-Narayan (Vaikunthdham) Temple at Kearny Facility with Installation of Pictures of Lord Ganesha, Hanumanji, Lakshmi-Narayan, Gayatri Mataji and Lord Shiva.<br><br><strong>1994&nbsp;&nbsp; Shrimad Bhagwat Gyanyagya Mahotsava:</strong> <br>11th Patotsava of Pran Pratishtha at Hindu Mandir, Garfield<br>Bhagwat recited by Param Pujya Goswami Indira Betiji (JiJi) at Kearny facility.<br>Vidya Kendra was moved from Garfield to Kearny Facility in its classroom wing. Curriculam was expanded to include Bharat Natyam, Prayer and Heritage, arts/crafts and basic computer learning. School population was increased to 300 students.<br><br><strong>1996&nbsp;&nbsp; Shrimad Bhagwat Gyanyagya Mahotsava:</strong><br>13th Patotsava of Pran Pratishtha at Hindu Mandir, Garfield. Bhagwat recited by Abhinav Shukdev Shri Yogendra Bhatt (Pijwala) Kearny Facility.<br><br><strong>1998&nbsp;&nbsp; Shri Devi Bhagwat Gyanyagya Mahotsava:</strong><br>15th Patotsava of Pran Pratishtha at Hindu Mandir, Garfield. Bhagwat recited by Abhinav Shukdev Shri Yogendra Bhatt (Pijwala) at Kearny facility.<br>Major renovations of community halls and re-construction of Vaikunthdham temple and prayer hall started at Kearny Facility.<br><br><strong>1999&nbsp; Hurricane Flyod:</strong><br>Undeground water currents/flood damaged. The wall between present temple (previous community hall) Raised central area of the building. Wall was reconstructed and the facility was restored to full function.<br><br><strong>2000&nbsp;&nbsp; Shiv Mahapuran Katha:</strong><br>Idols of current panchayatan devas arrived from India.<br><br><strong>2001&nbsp;&nbsp; Gujarat Earthquake Relief Work:</strong><br>Clothing drive, and distribution to needy people in Kutch/Bhuj.<br>General fund raising organized with Gujarati Diaro, by local artists and variety show by Rutgers, University students. A fund of nearly $ 60,000.00, was collected and donated to construct a middle, school as part of large educational campus in Adhoi near Bhuj City, Gujarat, India.<br><br><strong>2003&nbsp;&nbsp; Renovations:</strong> Renovations and upgrading of community halls completed and hall were formally dedicated for the benefit of community use. Re-construction of Vaikunthdham temple and prayer halls started.<br><br><strong>2004&nbsp;&nbsp; Re-Construction:</strong> Re-construction of Vaikunthdham temple and prayer hall substantially completed. Pran Pratishtha celebration: Installation of Lord Panchayatan Devas which included Lord Ganesh, Hanumanji, Gayatri Mataji, Lakshmi-Narayan and Trinetra Mahadev, under the guidance of Priests Maheshbhai Shastri and Gajendrabhai Jani. The Vaikunthdham temple was formally opened.<br><br><strong>2005&nbsp;&nbsp; Shiv Mahapuran Katha at Kearny:</strong> Shiv Mahapuran recital by H. H. Shri Dayagiri Maharaj of Bhavanagar.<br><br><strong>2005&nbsp;&nbsp; Musical program:</strong> Raj and Smruti Pandya<br><br><strong>2006&nbsp;&nbsp; Musical program:</strong> ‘Kal, Aaj or Kal’ fundraising program was organized for the benefit of Vidyakendra school.<br><br><strong>2006&nbsp;&nbsp; Musical program:</strong> Rasbihari and Vibha Desai<br><br><strong>2007&nbsp;&nbsp; Shri Devi Bhagwat Katha:</strong> Recited by H. H. Shri Keshavbhavani Maharaj of Mai Mandir, Nadiad.<br><br><strong>2008&nbsp;&nbsp; Navachandi Yagna:</strong><br>On the occasion of Silver Jubilee of Ambaji temple,Garfield - conducted Navchandi yagya, Kalash pooja and 7 days Shrimad Bhagwat Katha - Recital by 11 years old Sadhvi Chitralekhaji of Haryana.<br> <br><strong>2008&nbsp;&nbsp; Tabla Concert:</strong> ‘Taal Naad’ - fundraising program organized for the benefit of Vidyakendra school.<br><br><strong>2008&nbsp;&nbsp; Vidyakendra events:</strong> Rangoli competition, Saraswati Mahapooja, Talent show and Fun fair.<br><br><strong>2009&nbsp;&nbsp; Yoga Shibir:</strong> 7 days Yoga Shibir and discourses on Ramayan by Swami Adhyatmanandji Maharaj of Sivanand Ashram, Ahmedabad at Vaikunthdham, Kearny. - July 3 to July 10, 2009.<br><br><strong>2010&nbsp;&nbsp; Ram Katha Mahotsava:</strong> Recited by &quot;Bal Shuk&quot; Shri Gopeshji Maharaj from Brindavana. Vidya Kendra Events: Rangolee Event, Ganesh Puja, Talent Show, Youth Forum, Annual Presentation.<br><br><strong>2011&nbsp;&nbsp; Comedy Drama:</strong> American (desi) Kaka Chale Vanka. SRO audience: By Shakuntal Arts.<br>Shiva Darshan: Short discourse by H.H. Shri Dayagiri Maharaj of Bhavanagar.<br>Hurricane Irene: Substantial water damage to interiors of the facility and library, VK book support and costumes.<br>Diwali Dinner: With musical presentation by visiting group from India.<br><br><strong>2012&nbsp;&nbsp; Comedy Drama:</strong> Gujju Atak Atak Na Latak by Shakuntal Arts.<br>Dr. Dinesh Pandya: Ayrvedic Naadi Pariksha Camp-June 1912<br>Sharad Purnima Garba: Shailesh Parmar and Parivar Garba, Rass presentation for the benefit of HCC.<br>Hurricane Sandy: Damages exceeded Irene damages, including damages to 4 major HVAC units.<br><br><strong>2013&nbsp;&nbsp; Natya Mahotsava:</strong> Shakuntala Arts and other Tri-State Groups. For the benefit of HCC- Hurricane Sandy Damages<br><br><strong>2014&nbsp;&nbsp; Ayurvedic-Seed Therapy Camp:</strong> By Rajesh Patel<br>Comedy Drama: Gajju Atak Atak Na Latak for benefit of ate Shri Rakesh Nayak “ODI BABA” <br>Vidya-Kendra: Bhoomi Pujan Ceremony for new addition of classroom wing.<br><br><strong>2015&nbsp;&nbsp; Samooh Janoi-Yagnopavit Event:</strong><br>International Yoga Day: Celebrated at Kearny<br>Aadhikmass Discourse: by Swami Adhyatmanandji<br>Aadhikmass - Vishnu Yagna Garfield and Kearny<br>Drama Festival: Two day Drama Festival by Shakuntal&nbsp; Arts in collaboration with Gujarat Darpan and Gujarat Gujarat Foundation and Hindu Community Center. For Benefit of HCC.</span></div>
-<div id="wb_indexText1" style="position:absolute;left:268px;top:3px;width:458px;height:42px;text-align:center;z-index:7;">
-<span style="color:#FFFFFF;"><a href="http://hindumandirnj.org/index.html" class="style1">Hindu Community Center</a></span></div>
-</div>
-</body>
+            <ul role="menu">
+              <li class="firstitem lastitem">
+                <a role="menuitem" href="./kgallery.html" target="_self"
+                  >Media&nbsp;Gallery</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a role="menuitem" href="./vk.html" target="_self"
+              >Vidya&nbsp;Kendra</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./hall.html" target="_self"
+              >Banquet&nbsp;Halls</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./donation.html" target="_self"
+              >Donation</a
+            >
+          </li>
+          <li>
+            <a role="menuitem" href="./contact.html" target="_self"
+              >Contact&nbsp;Us</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div
+        id="wb_aboutusText2"
+        style="
+          position: absolute;
+          left: 15px;
+          top: 301px;
+          width: 965px;
+          height: 18px;
+          text-align: center;
+          z-index: 5;
+        "
+      >
+        <span style="color: #000000"
+          ><strong
+            ><u>Activities at a glance from 1980 to 2015</u></strong
+          ></span
+        >
+      </div>
+      <div
+        id="wb_aboutusText3"
+        style="
+          position: absolute;
+          left: 15px;
+          top: 347px;
+          width: 965px;
+          height: 2886px;
+          text-align: justify;
+          z-index: 6;
+        "
+      >
+        <span style="color: #000000"
+          ><strong
+            >1980&nbsp;&nbsp; Establishment of Hindu Community Center:</strong
+          ><br />Established as Non-Profit religious and cultural organization.
+          Purchased 1 Gaston Ave. Garfield, NJ, property to house a Sanatan
+          Mandir for Indian Community.<br />
+          <br /><strong
+            >1981&nbsp;&nbsp; First Sanatan Mandir with Panchayatan Devas named
+            as Hindu Mandir formally opened in greater Tri State area at 1
+            Gaston Avenue, Garfield, NJ.</strong
+          ><br />- Vidya Kendra, a one room - Sunday School for learning
+          Gujarati, Hindi and cultural dances started at Hindu Mandir,
+          Garfield.<br /><br /><strong
+            >1982&nbsp;&nbsp; Altar Construction and other minor
+            renovations</strong
+          ><br />Installation of Idols.<br /><br /><strong
+            >1983&nbsp;&nbsp; Pran Pratishtha celebration:</strong
+          >
+          Installation of Lord Panchayatan Devas under guidance of H.H. Shri
+          Narhariprasad Shastri. The Hindu Mandir was formally open.<br /><br /><strong
+            >1986&nbsp;&nbsp; Medical Center:</strong
+          >
+          a Saturday medical check up center started. Offered free medical check
+          up to community members and elderly parents who did not have medical
+          insurance.<br /><br /><strong
+            >1988&nbsp;&nbsp; Fifth Patotsava:</strong
+          >
+          anniversary of Pran Pratishtha celebrated. Shubha Swadia and group
+          presented a three hour cultural and folk dances stage show.<br /><br /><strong
+            >1991&nbsp;&nbsp; Yoga Class:</strong
+          >
+          First Yoga Class started at Hindu Mandir, Garfield under guidance of
+          Shri Champaklal Bhavsar, long time disciple of Swami Krupalanandji of
+          Kayavarohan, India.<br /><br /><strong
+            >1993&nbsp;&nbsp; Kearny Facility:</strong
+          >
+          Hindu Community Center purchased a 32000 sq.ft property at Kearny, NJ,
+          to expand its activities and provide hall facilities for the community
+          use.<br />Dashabdi Mahotsava of Pran Pratishtha of Hindu Mandir,
+          Garfield.<br />Opened Lakshmi-Narayan (Vaikunthdham) Temple at Kearny
+          Facility with Installation of Pictures of Lord Ganesha, Hanumanji,
+          Lakshmi-Narayan, Gayatri Mataji and Lord Shiva.<br /><br /><strong
+            >1994&nbsp;&nbsp; Shrimad Bhagwat Gyanyagya Mahotsava:</strong
+          >
+          <br />11th Patotsava of Pran Pratishtha at Hindu Mandir, Garfield<br />Bhagwat
+          recited by Param Pujya Goswami Indira Betiji (JiJi) at Kearny
+          facility.<br />Vidya Kendra was moved from Garfield to Kearny Facility
+          in its classroom wing. Curriculam was expanded to include Bharat
+          Natyam, Prayer and Heritage, arts/crafts and basic computer learning.
+          School population was increased to 300 students.<br /><br /><strong
+            >1996&nbsp;&nbsp; Shrimad Bhagwat Gyanyagya Mahotsava:</strong
+          ><br />13th Patotsava of Pran Pratishtha at Hindu Mandir, Garfield.
+          Bhagwat recited by Abhinav Shukdev Shri Yogendra Bhatt (Pijwala)
+          Kearny Facility.<br /><br /><strong
+            >1998&nbsp;&nbsp; Shri Devi Bhagwat Gyanyagya Mahotsava:</strong
+          ><br />15th Patotsava of Pran Pratishtha at Hindu Mandir, Garfield.
+          Bhagwat recited by Abhinav Shukdev Shri Yogendra Bhatt (Pijwala) at
+          Kearny facility.<br />Major renovations of community halls and
+          re-construction of Vaikunthdham temple and prayer hall started at
+          Kearny Facility.<br /><br /><strong
+            >1999&nbsp; Hurricane Flyod:</strong
+          ><br />Undeground water currents/flood damaged. The wall between
+          present temple (previous community hall) Raised central area of the
+          building. Wall was reconstructed and the facility was restored to full
+          function.<br /><br /><strong
+            >2000&nbsp;&nbsp; Shiv Mahapuran Katha:</strong
+          ><br />Idols of current panchayatan devas arrived from India.<br /><br /><strong
+            >2001&nbsp;&nbsp; Gujarat Earthquake Relief Work:</strong
+          ><br />Clothing drive, and distribution to needy people in
+          Kutch/Bhuj.<br />General fund raising organized with Gujarati Diaro,
+          by local artists and variety show by Rutgers, University students. A
+          fund of nearly $ 60,000.00, was collected and donated to construct a
+          middle, school as part of large educational campus in Adhoi near Bhuj
+          City, Gujarat, India.<br /><br /><strong
+            >2003&nbsp;&nbsp; Renovations:</strong
+          >
+          Renovations and upgrading of community halls completed and hall were
+          formally dedicated for the benefit of community use. Re-construction
+          of Vaikunthdham temple and prayer halls started.<br /><br /><strong
+            >2004&nbsp;&nbsp; Re-Construction:</strong
+          >
+          Re-construction of Vaikunthdham temple and prayer hall substantially
+          completed. Pran Pratishtha celebration: Installation of Lord
+          Panchayatan Devas which included Lord Ganesh, Hanumanji, Gayatri
+          Mataji, Lakshmi-Narayan and Trinetra Mahadev, under the guidance of
+          Priests Maheshbhai Shastri and Gajendrabhai Jani. The Vaikunthdham
+          temple was formally opened.<br /><br /><strong
+            >2005&nbsp;&nbsp; Shiv Mahapuran Katha at Kearny:</strong
+          >
+          Shiv Mahapuran recital by H. H. Shri Dayagiri Maharaj of
+          Bhavanagar.<br /><br /><strong
+            >2005&nbsp;&nbsp; Musical program:</strong
+          >
+          Raj and Smruti Pandya<br /><br /><strong
+            >2006&nbsp;&nbsp; Musical program:</strong
+          >
+          ï¿½Kal, Aaj or Kalï¿½ fundraising program was organized for the benefit of
+          Vidyakendra school.<br /><br /><strong
+            >2006&nbsp;&nbsp; Musical program:</strong
+          >
+          Rasbihari and Vibha Desai<br /><br /><strong
+            >2007&nbsp;&nbsp; Shri Devi Bhagwat Katha:</strong
+          >
+          Recited by H. H. Shri Keshavbhavani Maharaj of Mai Mandir, Nadiad.<br /><br /><strong
+            >2008&nbsp;&nbsp; Navachandi Yagna:</strong
+          ><br />On the occasion of Silver Jubilee of Ambaji temple,Garfield -
+          conducted Navchandi yagya, Kalash pooja and 7 days Shrimad Bhagwat
+          Katha - Recital by 11 years old Sadhvi Chitralekhaji of Haryana.<br />
+          <br /><strong>2008&nbsp;&nbsp; Tabla Concert:</strong> ï¿½Taal Naadï¿½ -
+          fundraising program organized for the benefit of Vidyakendra
+          school.<br /><br /><strong
+            >2008&nbsp;&nbsp; Vidyakendra events:</strong
+          >
+          Rangoli competition, Saraswati Mahapooja, Talent show and Fun fair.<br /><br /><strong
+            >2009&nbsp;&nbsp; Yoga Shibir:</strong
+          >
+          7 days Yoga Shibir and discourses on Ramayan by Swami Adhyatmanandji
+          Maharaj of Sivanand Ashram, Ahmedabad at Vaikunthdham, Kearny. - July
+          3 to July 10, 2009.<br /><br /><strong
+            >2010&nbsp;&nbsp; Ram Katha Mahotsava:</strong
+          >
+          Recited by &quot;Bal Shuk&quot; Shri Gopeshji Maharaj from Brindavana.
+          Vidya Kendra Events: Rangolee Event, Ganesh Puja, Talent Show, Youth
+          Forum, Annual Presentation.<br /><br /><strong
+            >2011&nbsp;&nbsp; Comedy Drama:</strong
+          >
+          American (desi) Kaka Chale Vanka. SRO audience: By Shakuntal Arts.<br />Shiva
+          Darshan: Short discourse by H.H. Shri Dayagiri Maharaj of
+          Bhavanagar.<br />Hurricane Irene: Substantial water damage to
+          interiors of the facility and library, VK book support and
+          costumes.<br />Diwali Dinner: With musical presentation by visiting
+          group from India.<br /><br /><strong
+            >2012&nbsp;&nbsp; Comedy Drama:</strong
+          >
+          Gujju Atak Atak Na Latak by Shakuntal Arts.<br />Dr. Dinesh Pandya:
+          Ayrvedic Naadi Pariksha Camp-June 1912<br />Sharad Purnima Garba:
+          Shailesh Parmar and Parivar Garba, Rass presentation for the benefit
+          of HCC.<br />Hurricane Sandy: Damages exceeded Irene damages,
+          including damages to 4 major HVAC units.<br /><br /><strong
+            >2013&nbsp;&nbsp; Natya Mahotsava:</strong
+          >
+          Shakuntala Arts and other Tri-State Groups. For the benefit of HCC-
+          Hurricane Sandy Damages<br /><br /><strong
+            >2014&nbsp;&nbsp; Ayurvedic-Seed Therapy Camp:</strong
+          >
+          By Rajesh Patel<br />Comedy Drama: Gajju Atak Atak Na Latak for
+          benefit of ate Shri Rakesh Nayak ï¿½ODI BABAï¿½ <br />Vidya-Kendra: Bhoomi
+          Pujan Ceremony for new addition of classroom wing.<br /><br /><strong
+            >2015&nbsp;&nbsp; Samooh Janoi-Yagnopavit Event:</strong
+          ><br />International Yoga Day: Celebrated at Kearny<br />Aadhikmass
+          Discourse: by Swami Adhyatmanandji<br />Aadhikmass - Vishnu Yagna
+          Garfield and Kearny<br />Drama Festival: Two day Drama Festival by
+          Shakuntal&nbsp; Arts in collaboration with Gujarat Darpan and Gujarat
+          Gujarat Foundation and Hindu Community Center. For Benefit of
+          HCC.</span
+        >
+      </div>
+      <div
+        id="wb_indexText1"
+        style="
+          position: absolute;
+          left: 268px;
+          top: 3px;
+          width: 458px;
+          height: 42px;
+          text-align: center;
+          z-index: 7;
+        "
+      >
+        <span style="color: #ffffff"
+          ><a href="./" class="style1">Hindu Community Center</a></span
+        >
+      </div>
+    </div>
+  </body>
 </html>
